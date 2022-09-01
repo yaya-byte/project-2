@@ -1,0 +1,114 @@
+#balls{
+
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+  
+}
+
+
+body{
+margin: 100px;
+font-family: 'Open Sans', sans-serif;
+padding-top: 65px;
+min-height: 50vh;
+}
+
+
+.page{
+margin: 0 auto;
+width: 1000px; 
+padding: 30px;
+font-size: 20px;
+
+border:solid red;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+ul li a{
+
+text-decoration: none;
+
+}
+
+
+
+ul li a:hover{
+
+  font-weight: bold;
+  color: darkmagenta;
+}
+
+ul{
+
+  list-style: none;
+  display: flex;
+  gap: 48px;
+
+}
+
+span{
+
+font-weight: 600;
+color: darkcyan;
+
+}
+
+button{
+font-weight: 300;
+  color: darkcyan;
+  text-transform: uppercase;
+
+  padding: 10px 10px 10px;
+  background: rgba(65, 200, 155, 0.722);
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+button:hover{
+
+  color: darkblue;
+  font-weight: bold;
+  
+
+}
+
+h2{
+
+font-weight: bold;
+color: rgb(56, 56, 56);
+
+
+}
+
+footer{
+
+text-align: center;
+margin-top: 40px;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between  ;
+}
+
+p{
+
+  margin-top: 40px;
+}
